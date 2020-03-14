@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <!-- Bootstrap CSS -->
-    <title>megamovie = @yield('title')</title>
+    <title>@yield('title')</title>
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/portada.css') }}" rel="stylesheet">
   </head>
@@ -12,7 +12,7 @@
 
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark text-white">
-        <a class="navbar-brand" href="#">www.movie-mega-mp4.com</a>
+        <a class="navbar-brand" href="#">Colegio campo y vida</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -42,11 +42,10 @@
         <!-- portada -->
 	     <img src="/images/portada limpia.png"  style=" position: relative; width: 90vw; max-height:70vh; min-height: 30vh;" >   
 				<div id="wrapper">
-				  <p id="stars"><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span></p>
-				  <p id="title" contenteditable="true" spellcheck="false"><span>Movie</span><span>-mega</span><span>-mp4.</span><span>com</span></p>
-				  <p id="slogan"><span>Peliculas, Programas y más...</span></p>
+				  <p id="title" contenteditable="true" spellcheck="false"><span>Colegio </span><span>Ecologico </span><span>Particular </span><span>Mixto </span><span>Campo y </span><span>Vida </span></p>
+				  <p id="slogan"><span>Haz rodar sobre Jehová tus obras y tus planes seran estrablecidos</span></p>
 				</div>
-</div>
+ </div>
     
     <main role="main">
 		<!-- contenedor -->      
